@@ -1,0 +1,25 @@
+{
+  "name": "dancingtrafficlight",
+  "version": "1.0.0",
+  "description": "Dancing traffic light",
+  "main": "Server/server.js",
+  "dependencies": {
+    "csv-parse": "^4.16.3",
+    "fs": "0.0.1-security",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamartin98/DancingTrafficLight.git"
+  },
+  "author": "Martin Hazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamartin98/DancingTrafficLight/issues"
+  },
+  "homepage": "https://github.com/hamartin98/DancingTrafficLight#readme"
+}
