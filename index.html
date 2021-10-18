@@ -16,8 +16,9 @@
   const canvas = document.getElementById("canvas");
   const context = canvas.getContext("2d");
 
-  canvas.height = window.innerHeight - (size);
-  canvas.width = window.innerHeight - (size);
+  const canvasSize = window.innerHeight;
+  canvas.height = canvasSize;
+  canvas.width = canvasSize;
 
   const pixelSize = (canvas.height / size).toFixed();
 
