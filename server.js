@@ -18,7 +18,7 @@ fs.createReadStream("./dtl.csv")
 var idx = 0; // index of the current frame
 
 setInterval(() => {
-  if(clients.length != 0){
+  if (clients.length != 0) {
     var currFrame = frames[idx]; // get the current frame
     clients.forEach((element) => element.send(currFrame)); // send the current frame the every connected client
     idx = idx < frames.length ? idx + 1 : 0;
